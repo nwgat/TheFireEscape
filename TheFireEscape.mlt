@@ -18,7 +18,7 @@
   <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:00:20.208">
     <property name="length">00:00:20.250</property>
     <property name="eof">pause</property>
-    <property name="resource">outputgirl.2160p.y4m</property>
+    <property name="resource">TheFireEscape.raw.y4m</property>
     <property name="audio_index">-1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -27,11 +27,11 @@
     <property name="aspect_ratio">1</property>
     <property name="shotcut:hash">e76b9a23c3315a1f4e403edfa3bf54d9</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">outputgirl.2160p.y4m</property>
-    <property name="shotcut:detail">outputgirl.2160p.y4m</property>
-    <property name="shotcut:comment"></property>
+    <property name="shotcut:caption">TheFireEscape.raw.y4m</property>
+    <property name="shotcut:detail">TheFireEscape.raw.y4m</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
+    <property name="shotcut:comment"></property>
     <filter id="filter0">
       <property name="argument">#timecode#</property>
       <property name="geometry">65.83%/88.52%:34.17%x11.48%</property>
@@ -86,10 +86,49 @@
     <property name="shotcut:name">V1</property>
     <entry producer="producer0" in="00:00:00.000" out="00:00:20.208"/>
   </playlist>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:00:24.958">
+    <property name="length">00:00:25.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">gunship_revel_in_your_time_22sec.flac</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">c643a3e3448c8758d4342ee2d279b560</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">gunship_revel_in_your_time_22sec.flac</property>
+    <property name="shotcut:detail">gunship_revel_in_your_time_22sec.flac</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" out="00:00:00.958">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="gain">0</property>
+      <property name="end">1</property>
+    </filter>
+    <filter id="filter5" in="00:00:24.000" out="00:00:24.958">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="gain">1</property>
+      <property name="end">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:20.208"/>
+  </playlist>
   <tractor id="tractor0" title="Shotcut version 17.02.05" global_feed="1" in="00:00:00.000" out="00:00:20.208">
     <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">3.23937</property>
     <track producer="background"/>
     <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
     <transition id="transition0">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -103,6 +142,13 @@
       <property name="version">0.9</property>
       <property name="mlt_service">frei0r.cairoblend</property>
       <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
     </transition>
   </tractor>
 </mlt>
