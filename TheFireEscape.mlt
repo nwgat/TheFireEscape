@@ -89,7 +89,7 @@
   <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:00:24.958">
     <property name="length">00:00:25.000</property>
     <property name="eof">pause</property>
-    <property name="resource">gunship_revel_in_your_time_22sec.flac</property>
+    <property name="resource">gunship_revel_in_your_time_25sec.flac</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
     <property name="mute_on_pause">0</property>
@@ -97,8 +97,8 @@
     <property name="seekable">1</property>
     <property name="shotcut:hash">c643a3e3448c8758d4342ee2d279b560</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">gunship_revel_in_your_time_22sec.flac</property>
-    <property name="shotcut:detail">gunship_revel_in_your_time_22sec.flac</property>
+    <property name="shotcut:caption">gunship_revel_in_your_time_25sec.flac</property>
+    <property name="shotcut:detail">gunship_revel_in_your_time_25sec.flac</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter4" out="00:00:00.958">
