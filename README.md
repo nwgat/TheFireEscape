@@ -13,10 +13,11 @@ GUNSHIP All Rights Reserved
 
 ## Tests
 
-* **bench.x264.py** Encoding 3840x2160p24 4K Shotcut Project using qmelt to x264 with Slow Preset and 16 CRF
-* **bench.x265.py** Encoding 3840x2160p24 4K Shotcut Project using qmelt to x265 with Slow Preset and 16 CRF 
-* **bench.vp9.py** todo
+* **python bench.x264.py** Encoding 3840x2160p24 4K Shotcut Project using qmelt to x264 with Slow Preset and 16 CRF
+* **python bench.x265.py** Encoding 3840x2160p24 4K Shotcut Project using qmelt to x265 with Slow Preset and 16 CRF 
+* **python bench.vp9.py** todo
 
+Results are written to output.x264.txt and output.x265.txt
 
 ## Install
 * `wget https://github.com/nwgat/TheFireEscape/archive/master.zip`
