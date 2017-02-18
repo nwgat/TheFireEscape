@@ -21,8 +21,10 @@ Results are written to output.x264.txt and output.x265.txt
 
 ## Install
 * `wget https://github.com/nwgat/TheFireEscape/archive/master.zip`
+* `7z x master.zip`
 * `cd TheFireEscape-master`
 * `wget https://awesome.nwgat.ninja/TheFireEscape/TheFireEscape.raw.7z`
 * `7z x TheFireEscape.raw.7z`
 * `wget https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win64-170205.zip`
 * `7z x shotcut-win64-170205.zip`
+* `python bench.x264.py`
