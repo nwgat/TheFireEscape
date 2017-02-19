@@ -1,4 +1,4 @@
-# The Fire Escape 4K Benchmark
+# The Fire Escape 4K Benchmark BETA
 nwgat.ninja/thefireescape
 
 ## So what the is this thing?
