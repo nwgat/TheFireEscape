@@ -29,8 +29,8 @@ Results are written to output.x264.txt and output.x265.txt
 ## issues?
 this is how it should look as a diectory
 
-`F:\TheFireEscape-master\Shotcut\qmelt.exe`
-`F:\TheFireEscape-master\TheFireEscape.raw.y4m`
-`F:\TheFireEscape-master\TheFireEscape.mlt`
-`F:\TheFireEscape-master\bench.x264.py`
-`F:\TheFireEscape-master\bench.x265.py`
+* `F:\TheFireEscape-master\Shotcut\qmelt.exe`
+* `F:\TheFireEscape-master\TheFireEscape.raw.y4m`
+* `F:\TheFireEscape-master\TheFireEscape.mlt`
+* `F:\TheFireEscape-master\bench.x264.py`
+* `F:\TheFireEscape-master\bench.x265.py`
