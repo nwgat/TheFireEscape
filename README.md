@@ -25,7 +25,7 @@ Results are written to output.x264.txt and output.x265.txt
 * Download [TheFireEscape raw file (2GB](https://awesome.nwgat.ninja/TheFireEscape/TheFireEscape.raw.7z)
 * Download [Shotcut](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win64-170205.zip)
 * Extract everything to same folder
-* `run bench.x264.py or bench.x265.py`
+* double click on `bench.x264.py` or `bench.x265.py`
 
 ## issues?
 this is how it should look as a diectory
