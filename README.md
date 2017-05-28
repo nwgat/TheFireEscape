@@ -13,19 +13,16 @@ GUNSHIP All Rights Reserved
 
 ## Tests
 
-* **python bench.x264.py** Encoding 3840x2160p24 4K Shotcut Project using qmelt to x264 with Slow Preset and 16 CRF
-* **python bench.x265.py** Encoding 3840x2160p24 4K Shotcut Project using qmelt to x265 with Slow Preset and 16 CRF 
-* **python bench.vp9.py** todo
+* **bench.x264.py** Encoding 3840x2160p24 4K Shotcut Project using qmelt to x264 with Slow Preset and 16 CRF
+* **bench.x265.py** Encoding 3840x2160p24 4K Shotcut Project using qmelt to x265 with Slow Preset and 16 CRF 
+* **bench.vp9.py** todo
 
 Results are written to output.x264.txt and output.x265.txt
 
 ## Install
-* Install [Python 3](https://www.python.org/ftp/python/3.6.0/python-3.6.0.exe)
-* Download [TheFireEscape](https://github.com/nwgat/TheFireEscape/archive/master.zip)
-* Download [TheFireEscape raw file (2GB](https://awesome.nwgat.ninja/TheFireEscape/TheFireEscape.raw.7z)
-* Download [Shotcut](https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win64-170205.zip)
-* Extract everything to same folder
-* double click on `bench.x264.py` or `bench.x265.py`
+* Run setup.bat as admin (this will install python, download 4k source file with shotcut and uncompress everything)
+* Run bench.x264.bat to benchmark 4k x264
+* Run bench.x265.bat to benchmark 4k x265
 
 ## issues?
 this is how it should look as a diectory
