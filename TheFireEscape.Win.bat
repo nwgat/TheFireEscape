@@ -23,31 +23,32 @@ wget -nc https://www.python.org/ftp/python/3.6.0/python-3.6.0.exe
 .\python-3.6.0.exe /passive
 .\7za.exe e TheFireEscape.raw.7z
 .\7za.exe x shotcut-win64-170205.zip
+.\7za.exe x python-3.6.1.amd64.7z
 GOTO MENU
 
 :x264
    echo "Benchmarking: Started"
-			python bench.x264.py >> x264.log
-            echo "1 [Done]"
-			python bench.x264.py >> x264.log
-            echo "2 [Done]"
-			python bench.x264.py >> x264.log
-            echo "3 [Done]"
-			python bench.x264.py >> x264.log
-            echo "4 [Done]"
-			python bench.x264.py >> x264.log
-            echo "5 [Done]"
+			python-3.6.1.amd64\python.exe bench.x264.py >> x264.log
+            echo 1 [Done]
+			python-3.6.1.amd64\python.exe bench.x264.py >> x264.log
+            echo 2 [Done]
+			python-3.6.1.amd64\python.exe bench.x264.py >> x264.log
+            echo 3 [Done]
+			python-3.6.1.amd64\python.exe bench.x264.py >> x264.log
+            echo 4 [Done]
+			python-3.6.1.amd64\python.exe bench.x264.py >> x264.log
+            echo 5 [Done]
 GOTO MENU
 :x265
     echo "Benchmarking: Started"
-			python bench.x265.py >> x265.log
+			python-3.6.1.amd64\python.exe bench.x265.py >> x265.log
             echo "1 [Done]"
-			python bench.x265.py >> x265.log
+			python-3.6.1.amd64\python.exe bench.x265.py >> x265.log
             echo "2 [Done]"
-			python bench.x265.py >> x265.log
+			python-3.6.1.amd64\python.exe bench.x265.py >> x265.log
             echo "3 [Done]"
-			python bench.x265.py >> x265.log
+			python-3.6.1.amd64\python.exe bench.x265.py >> x265.log
             echo "4 [Done]"
-			python bench.x265.py >> x265.log
+			python-3.6.1.amd64\python.exe bench.x265.py >> x265.log
             echo "5 [Done]"
 GOTO MENU
