@@ -13,8 +13,9 @@ do
             wget -nc https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-linux-x86_64-170205.tar.bz2
 
             echo "Installing & Unpacking"
+	    sudo add-apt-repository universe
             sudo apt-get update
-            sudo apt-get install python3 p7zip-full libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev -y
+            sudo apt-get install python3 p7zip-full libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev xvfb -y
             7za e TheFireEscape.raw.7z
 	    rm -rf TheFireEscape.raw.7z
             tar xvfj shotcut-linux-x86_64-170205.tar.bz2
