@@ -27,27 +27,27 @@ GOTO MENU
 
 :x264
    echo "Benchmarking: Started"
-			python-3.6.1.amd64\python.exe bench.x264.py >> x264.log
+			python-3.6.1.amd64\python.exe bench.x264.py
             echo 1 [Done]
-			python-3.6.1.amd64\python.exe bench.x264.py >> x264.log
+			python-3.6.1.amd64\python.exe bench.x264.py
             echo 2 [Done]
-			python-3.6.1.amd64\python.exe bench.x264.py >> x264.log
+			python-3.6.1.amd64\python.exe bench.x264.py
             echo 3 [Done]
-			python-3.6.1.amd64\python.exe bench.x264.py >> x264.log
+			python-3.6.1.amd64\python.exe bench.x264.py
             echo 4 [Done]
-			python-3.6.1.amd64\python.exe bench.x264.py >> x264.log
+			python-3.6.1.amd64\python.exe bench.x264.py
             echo 5 [Done]
 GOTO MENU
 :x265
     echo "Benchmarking: Started"
-			python-3.6.1.amd64\python.exe bench.x265.py >> x265.log
+			python-3.6.1.amd64\python.exe bench.x265.py
             echo "1 [Done]"
-			python-3.6.1.amd64\python.exe bench.x265.py >> x265.log
+			python-3.6.1.amd64\python.exe bench.x265.py
             echo "2 [Done]"
-			python-3.6.1.amd64\python.exe bench.x265.py >> x265.log
+			python-3.6.1.amd64\python.exe bench.x265.py
             echo "3 [Done]"
-			python-3.6.1.amd64\python.exe bench.x265.py >> x265.log
+			python-3.6.1.amd64\python.exe bench.x265.py
             echo "4 [Done]"
-			python-3.6.1.amd64\python.exe bench.x265.py >> x265.log
+			python-3.6.1.amd64\python.exe bench.x265.py
             echo "5 [Done]"
 GOTO MENU
