@@ -1,4 +1,4 @@
-ECHO OFF
+@ECHO OFF
 CLS
 :MENU
 ECHO.
@@ -18,8 +18,8 @@ IF %M%==3 GOTO x265
 IF %M%==4 GOTO EOF
 :install
 wget -nc https://awesome.nwgat.ninja/TheFireEscape/TheFireEscape.raw.7z
-wget -nc https://github.com/mltframework/shotcut/releases/download/v17.02/shotcut-win64-170205.zip
-.\python-3.6.0.exe /passive
+wget -nc https://awesome.nwgat.ninja/TheFireEscape/shotcut-win64-170205.zip
+wget -nc https://awesome.nwgat.ninja/TheFireEscape/python-3.6.1.amd64.7z
 .\7za.exe e TheFireEscape.raw.7z
 .\7za.exe x shotcut-win64-170205.zip
 .\7za.exe x python-3.6.1.amd64.7z
