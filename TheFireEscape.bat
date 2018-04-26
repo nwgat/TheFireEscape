@@ -6,7 +6,7 @@ ECHO ...............................................
 ECHO The Fire Escape 4K Benchmark
 ECHO ...............................................
 ECHO.
-ECHO 1 - Install
+ECHO 1 - Install (2GB+ Download)
 ECHO 2 - x264 Benchmark
 ECHO 3 - x265 Benchmark
 ECHO 4 - Quit
